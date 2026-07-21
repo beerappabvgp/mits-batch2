@@ -29,5 +29,7 @@ public class Arrays {
         int[][] matrix = {{1,2,3}, {4,5,6}, {7,8,9}};
         System.out.println(matrix[0][1]);
         System.out.println(matrix[1][1]);
+        matrix[1][0] = 1000;
+        System.out.println("After update matrix is : " + matrix[1][0]);
     }
 }
