@@ -135,10 +135,17 @@ s1.print()
 
 
 
-1. Functional RequirementsRole Management: 
+1. Functional Requirements
+
+Role Management: 
 
 Two distinct interfaces.
 
-Librarian: Can add/remove/update books, view all users, manage issue/return cycles, and calculate fines.Member: Can log in, search for available books, view personal borrowing history, and check outstanding fine amounts.Book Cataloging: System tracks Book ID, Title, Author, ISBN, Genre, Total Copies, and Available Copies.Search Module: Ability to query the book inventory by Title, Author, or ISBN.Circulation 
+Librarian: Can add/remove/update books, view all users, manage issue/return cycles, and calculate fines.
 
-System:Checkout: Decrements available book count and records the issue date and calculated due date (e.g., 14 days).Return: Increments available book count and assesses a fee if the book is returned past the due date (e.g., $5 per day).Account/Record Keeping: Generates real-time summary reports (e.g., list of overdue books, total fines collected).
+Member: Can log in, search for available books, view personal borrowing history, and check outstanding fine amounts.Book Cataloging: System tracks Book ID, Title, Author, ISBN, Genre, Total Copies, and Available Copies.Search Module: Ability to query the book inventory by Title, Author, or ISBN.Circulation 
+
+System:
+Checkout: Decrements available book count and records the issue date and calculated due date (e.g., 14 days).Return: Increments available book count and assesses a fee if the book is returned past the due date (e.g., $5 per day).Account/Record Keeping: Generates real-time summary reports (e.g., list of overdue books, total fines collected).
+
+
