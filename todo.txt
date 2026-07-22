@@ -30,12 +30,30 @@ Collections in java - Hashmap, hashset ...
 OOPS - 
 Class
 Object
+Metaspace - (permgen in previous versions of java)
+inheritance internally in stack and heap
+polymorphism internally (--- runtime polymorphism .... )
 class variables and instance variables 
-inheritance 
-polymorphism 
-abstraction 
-encapsulation 
-interfaces 
+inheritance - Types of inheritance.
+polymorphism - dynamic dispatch & vtable 
+abstraction - (Abstract classes ... )
+encapsulation --- (public, private, default, protected)
+interfaces - (Multiple interface implementation ... )
+
+
+
+Collections
+
+-- ArrayList
+-- Hashmap
+-- hashset
+
+strings
+ -- Two pointers
+ -- Sliding window
+
+
+
 
 
 
@@ -88,7 +106,7 @@ public Student(String name, String rollNumber, String branch, String contact) {
         this.contact = contact;
     }
 
-MOdified 
+Modified 
 
 public Student(Object this, String name, String rollNumber, String branch, String contact) {
         this.name = name;
@@ -105,3 +123,22 @@ Student s2 = new Student(s2, "Vishnu", "900", "CS", "89939");
 
 
 s1.print()
+
+
+
+
+
+
+
+
+
+
+
+
+1. Functional RequirementsRole Management: 
+
+Two distinct interfaces.
+
+Librarian: Can add/remove/update books, view all users, manage issue/return cycles, and calculate fines.Member: Can log in, search for available books, view personal borrowing history, and check outstanding fine amounts.Book Cataloging: System tracks Book ID, Title, Author, ISBN, Genre, Total Copies, and Available Copies.Search Module: Ability to query the book inventory by Title, Author, or ISBN.Circulation 
+
+System:Checkout: Decrements available book count and records the issue date and calculated due date (e.g., 14 days).Return: Increments available book count and assesses a fee if the book is returned past the due date (e.g., $5 per day).Account/Record Keeping: Generates real-time summary reports (e.g., list of overdue books, total fines collected).

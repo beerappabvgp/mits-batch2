@@ -1,1 +1,9 @@
-# mits-batch2
+# Data Structures and Algorithms 
+
+## Arrays 
+
+## Strings 
+
+## Stack
+
+## Queue
