@@ -4,7 +4,7 @@ class BankAccount {
 
     public BankAccount(String accountNumber, double balance) {
         this.accountNumber = accountNumber;
-        this.balance = balance;
+        this.balance = balance; 
     }
 
     public double getBalance() {
