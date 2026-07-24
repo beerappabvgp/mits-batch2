@@ -1,7 +1,9 @@
-class Shape {
+abstract class Shape {
     void draw() {
         System.out.println("Drawing shape .... ");
     }
+
+    abstract void test();
 }
 
 class Circle extends Shape {

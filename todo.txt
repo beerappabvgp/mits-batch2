@@ -149,3 +149,21 @@ System:
 Checkout: Decrements available book count and records the issue date and calculated due date (e.g., 14 days).Return: Increments available book count and assesses a fee if the book is returned past the due date (e.g., $5 per day).Account/Record Keeping: Generates real-time summary reports (e.g., list of overdue books, total fines collected).
 
 
+
+
+
+1. Two pointers
+2. sliding winddow 
+3. prefix sum
+4. Hashmap
+5. HashSet
+6. stack
+7. Queue, binary search, sorting 
+8. Heap - Max and Min Heap 
+9. Recursion 
+10. Backtracking 
+11. Linked List - Singly, double, circular
+12. Trees - Binaary tree and BST - DFS, BFS, traversal techniques
+13. Graphs - DFS, BFS, union find, Djikstras algorithm
+14. DP - 1D DP and 2D DP and then 0/1 knapsack 
+
