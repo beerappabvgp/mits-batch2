@@ -152,6 +152,15 @@ Checkout: Decrements available book count and records the issue date and calcula
 
 
 
+
+
+
+
+
+
+
+
+
 1. Two pointers
 2. sliding winddow 
 3. prefix sum
@@ -167,3 +176,10 @@ Checkout: Decrements available book count and records the issue date and calcula
 13. Graphs - DFS, BFS, union find, Djikstras algorithm
 14. DP - 1D DP and 2D DP and then 0/1 knapsack 
 
+
+
+
+Circular Queue
+Monotonically Increasing stack
+Monotonically decreasing stack 
+https://app.notion.com/p/DSA_Patterns_Master_Guide-3a5f8b7a47fc80849599ceb0b1c34da0?source=copy_link
