@@ -183,3 +183,7 @@ Circular Queue
 Monotonically Increasing stack
 Monotonically decreasing stack 
 https://app.notion.com/p/DSA_Patterns_Master_Guide-3a5f8b7a47fc80849599ceb0b1c34da0?source=copy_link
+
+
+variable size sliding window : 
+https://leetcode.com/problems/longest-repeating-character-replacement/description/
